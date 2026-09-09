@@ -1,0 +1,26 @@
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables & secrets (NEVER commit secrets!)
+**/.env
+**/.env.*
+!**/.env.example
+
+# Temporary archives & packages
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary scratch directories
+scratch/
